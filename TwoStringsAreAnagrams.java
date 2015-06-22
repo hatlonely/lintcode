@@ -1,4 +1,4 @@
-// Two Strings Are Anagrams
+// 158 Two Strings Are Anagrams
 // http://www.lintcode.com/zh-cn/problem/two-strings-are-anagrams/
 //
 // Write a method anagram(s,t) to decide if two strings are anagrams or not.

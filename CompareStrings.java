@@ -1,4 +1,4 @@
-// Compare Strings
+// 55 Compare Strings
 // http://www.lintcode.com/en/problem/compare-strings/
 //
 // Compare two strings source and target, determine whether source contains all of the characters in target.
