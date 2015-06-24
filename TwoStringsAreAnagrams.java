@@ -36,13 +36,8 @@ public class TwoStringsAreAnagrams {
             sourceTimes[source.charAt(i)]++;
             targetTimes[target.charAt(i)]++;
         }
-        for (int i = 0; i < 256; i++) {
-            if (sourceTimes[i] != targetTimes[i]) {
-                return false;
-            }
-        }
 
-        return true;
+        return Arrays.equals(sourceTimes, targetTimes);
     }
 
     public static void main(String[] args) {
